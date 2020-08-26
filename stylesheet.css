@@ -1,0 +1,188 @@
+/* Stylesheet for index.html landingPageTemplate */
+body
+{
+    margin: 0;
+}
+
+#companyLogo
+{
+    color: #333333;
+    font-size: 30px;
+    margin: 10px 0 0 15px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#features
+{
+    color: black;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.featureIcon
+{
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    width: 20vw;
+}
+
+.featureText
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70vw;
+}
+
+.featureText h4
+{
+    margin-bottom: 0;
+    width: 70vw;
+}
+
+.featureText p
+{
+    font-size: 25px;
+    margin-top: 0;
+    width: 70vw;
+}
+
+#features
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 100px;
+}
+
+.featureWrapper
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#header
+{
+    align-content: center;
+    background-color: #A1A1A1;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+#navBarOptions
+{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.navBarLink
+{
+    color: #333333;
+    font-size: 20px;
+    margin: 5px 15px 5px 0;
+    text-decoration: none;
+}
+
+.priceDesc
+{
+    padding: 8px;
+}
+
+.priceItem
+{
+    align-items: center;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 300px;
+}
+
+#prices
+{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.priceTitle
+{
+    justify-content: center;
+    background-color: #A1A1A1;
+    display: flex;
+    height: 10%;
+    margin-top: 0;
+    padding: 5px 0 5px 0;
+    width: 100%;
+}
+
+.selectButton
+{
+    background-color: #A1A1A1;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    padding: 2px 0 2px;
+    width: 25%;
+}
+
+#tagLine
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    width: 100%;
+}
+
+.tagLineText
+{
+    margin: 0;
+}
+
+.wrapper
+{
+    background-image: linear-gradient(#DDA15E, #606C38);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 750px)
+{
+    .featureIcon
+    {
+        font-size: 35px;
+    }
+
+    #prices
+    {
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .priceItem
+    {
+        margin: 25px 0 25px 0;
+        width: 50vw;
+    }
+}
